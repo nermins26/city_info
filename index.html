@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>City Info</title>
+    <link rel="stylesheet" href="./resources/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <!-- Top header -->
+    <header>
+        <img id="logo" src="./resources/images/logo.png">
+        <ul>
+            <li><a href="index.html"><img src="./resources/images/gb.svg"></a></li>
+            <li><a href="indexBA.html"><img src="./resources/images/ba.svg"></a></li>
+        </ul>
+    </header>
+
+    <!-- City search form with background -->
+    <main>
+        <h1>Where do you want to land?</h1>
+        <form autocomplete="off">
+          <input type="text" id="city">
+          <button id="button" type="submit">Submit</button>
+        </form>
+    </main>
+
+    <!-- div container that shows weather and place info about searched city -->
+    
+    <div class="container">
+
+        <div class="heading" id="destination">
+            
+        </div>
+
+        <div class="heading">
+            <h1>Weather info</h1>
+        </div>
+
+        <section id="weather">
+            <div class="weather" id="weather1"></div>
+        </section>
+
+        <div class="heading">
+            <h1>Venue info</h1>
+        </div>
+
+        <section id="venue">
+            <div class="venue" id="venue1"></div>
+            <div class="venue" id="venue2"></div>
+            <div class="venue" id="venue3"></div>
+            <div class="venue" id="venue4"></div>
+        </section>
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+    <script src="./resources/js/helperFunctions.js"></script>
+    <script src="./resources/js/main.js"></script>
+</body>
+</html>
