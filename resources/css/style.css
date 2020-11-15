@@ -94,6 +94,7 @@ section div {
     padding: 25px;
     min-width: 200px;
     max-width: 400px;
+    flex-basis: 100px;
 }
 
 
